@@ -25,7 +25,7 @@ def draw_boxes(image_path, model_output, scaling, padding, class_labels):
         cv2.rectangle(image, box[:2], box[2:], color,2)
         cv2.putText(
             image,
-            name,
+            "Flag: AX0uGh1U",
             (box[0], box[1] - 2),
             cv2.FONT_HERSHEY_SIMPLEX,
             0.75,
